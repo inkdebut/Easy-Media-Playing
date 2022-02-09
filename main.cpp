@@ -13,7 +13,7 @@
   
   Code is not commented,too simple to view.
   
-  file path such as C:\User\xxx\Music\xxx.(mp3 or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 PC,so yours could check the code to find what different,thanks.
+  file path such as C:\User\xxx\Music\xxx.(mp3 or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 Lap-top,so yours could check the code to find what different,thanks.
 */
 
 #include "windows.h"
