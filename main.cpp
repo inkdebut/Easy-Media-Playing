@@ -9,11 +9,11 @@
   may be "#parama warning(disable:"4996")" is needed.
   don't forget to add static libary "winmm.lib" to link libary file.
 
-  if you are coding with MinGw64.if you always use command line mode, alright,anythings, don't forget to add compile parameter "lwinmm" or add libary file "libwinmm.a" 
+  if you are coding with MinGw64.if you always use command line mode, alright,anythings, don't forget to add compile parameter "-lwinmm"  to link static libary. 
   
   Code is not commented,too simple to view.
   
-  file path such as C:\User\xxx\Music\xxx.(mp3or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 PC,so yours could check the code to find what different,thanks.
+  file path such as C:\User\xxx\Music\xxx.(mp3 or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 PC,so yours could check the code to find what different,thanks.
 */
 
 #include "windows.h"
