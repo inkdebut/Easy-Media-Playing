@@ -1,4 +1,6 @@
-//I am a newer for C++,so this is a full of problems,so  i am very thanks for every guys who point out the problems.thanks before.
+/*
+  I am a newer for C++,so this is a full of problems,so  i am very thanks for every guys who point out the problems.thanks before.
+*/
 
 #include "windows.h"
 #include "iostream"
@@ -6,21 +8,15 @@
 #include "mmsystem"
 
 /*
-  VC++ if：
+  VC++ if:
   add code "#parama comment(lib,"winmm.lib")"
   may be "#parama warning(disable:"4996")" is needed.
   don't forget to add static libary "winmm.lib" to link libary file.
-*/
 
-/*
   if you are coding with MinGw64.if you always use command line mode, alright,anythings, don't forget to add compile parameter "lwinmm" or add libary file "libwinmm.a" 
-*/
-
-/*
+  
   Code is not commented,too simple to view.
-*/
-
-/*
+  
   file path such as C:\User\xxx\Music\xxx.mp3(xx.avi etc.).
 */
 using namespace std;
