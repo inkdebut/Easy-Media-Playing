@@ -1,19 +1,18 @@
 /*
-  I am a newer for C++,so this is a full of problems,so  i am very thanks for every guys who point out the problems.thanks before.
+  I'm new to C++, so there are a lot of questions here, so I'm very grateful to everyone who points out them for me. Thanks in advance.
 */
 
 
 /*
   VC++ if:
-  add code "#parama comment(lib,"winmm.lib")"
-  may be "#parama warning(disable:"4996")" is needed.
-  don't forget to add static libary "winmm.lib" to link libary file.
-
-  if you are coding with MinGw64.if you always use command line mode, alright,anythings, don't forget to add compile parameter "-lwinmm"  to link static libary. 
+  Insert code "#parama comment(lib,"winmm.lib")"
+  May be "#parama warning(disable:"4996")" is needed.
+  Don't forget to add the static library "winmm.lib" to the library file to be linked.
+  If you use MinGw64 for encoding. If you always use command line mode, well, anyway, don't forget to add compile parameter "-lwin mm" to link static library. 
   
-  Code is not commented,too simple to view.
+  Code is uncommented, easy to view.
   
-  file path such as C:\User\xxx\Music\xxx.(mp3 or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 Lap-top,so yours could check the code to find what different,thanks.
+  File path, such as C:\User\xxx\Music\xxx. (mp3 or wav), etc. I don't know why it doesn't play .wav files in my Windows 11 laptop, so you can check the code to find out what's difference, thanks.
 */
 
 #include "windows.h"
