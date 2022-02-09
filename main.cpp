@@ -6,7 +6,7 @@
 #include "mmsystem"
 
 /*
-  VC++ if
+  VC++ if：
   add code "#parama comment(lib,"winmm.lib")"
   may be "#parama warning(disable:"4996")" is needed.
   don't forget to add static libary "winmm.lib" to link libary file.
@@ -17,18 +17,19 @@
 */
 
 /*
-  No code comments,too simple to view.
+  Code is not commented,too simple to view.
 */
 
+/*
+  file path such as C:\User\xxx\Music\xxx.mp3(xx.avi etc.).
+*/
 using namespace std;
 
 void loop(char ar[25]);
 int _Compare(char *ar1, char *ar2);
-// C:/Users/XiaYuqiao/Downloads/planefight/mainbgm.mp3
 char msg[25];
 char initPath[255] = "open ";
 char aBgm[25] = " alias BGM", quit[25]="quit",resume[25]="resume",pause[25]="pause",cutsong[25]="cutsong";
-//char sBgm[25]="stop BGM";
 char open[25] = "open ", play[25] = "play";
 char inpath[230];
 
