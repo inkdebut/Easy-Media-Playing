@@ -13,8 +13,9 @@
   
   Code is not commented,too simple to view.
   
-  file path such as C:\User\xxx\Music\xxx.mp3(xx.avi etc.).
+  file path such as C:\User\xxx\Music\xxx.(mp3or wav) etc. I don't kown why it couldn't play .wav file in my Windows 11 PC,so yours could check the code to find what different,thanks.
 */
+
 #include "windows.h"
 #include "iostream"
 #include "cstring"
@@ -27,11 +28,8 @@ char msg[25];
 void loop(char *const ar);
 int compare(const char *ar1,const char *ar2);
 
-char initPath[255] = "open ";
-char aBgm[11] = " alias BGM", quit[5]="quit",resume[7]="resume",pause[6]="pause",cutsong[8]="cutsong";
-
-char open[6] = "open ", play[25] = "play";
-char inpath[230] = "";
+char initPath[255] = "open ",aBgm[11] = " alias BGM", quit[5]="quit",resume[7]="resume";
+char pause[6]="pause",cutsong[8]="cutsong",open[6] = "open ", play[25] = "play",inpath[230] = "";
 
 int main()
 {
@@ -39,7 +37,7 @@ int main()
     cin >> inpath;
     strcat(initPath, inpath);
     strcat(initPath, aBgm);
-    cout << "Enter \"play\" to play music : ";
+    cout << "Enter \"play\" to play music\n: ";
     cin >> msg;
     loop(msg);
     return 0;
@@ -75,7 +73,7 @@ void loop(char *const ar)
     }
     else if (compare(ar, pause) == 0)
     {
-        cout << "Playing paused...Waiting for instructions \"resume\":";
+        cout << "Playing paused...Waiting for instructions \"resume\"\n:";
         mciSendStringA("stop BGM", nullptr, 0, nullptr);
         memset(msg, '\0', sizeof(*ar));
         cin >> msg;
@@ -91,7 +89,7 @@ void loop(char *const ar)
     }
     else if (compare(ar, cutsong) == 0)
     {
-        cout << "Enter a new play file:";
+        cout << "Enter a new play file\n:";
         memset(inpath,'\0',sizeof(inpath));
         cin >> inpath;
         mciSendStringA("close BGM", nullptr, 0, nullptr);
@@ -103,13 +101,13 @@ void loop(char *const ar)
         }
         strcat(initPath, inpath);
         strcat(initPath, aBgm);
-        cout << "Retype \"play\" to play the new music file:";
+        cout << "Retype \"play\" to play the new music file\n:";
         cin >> msg;
         loop(msg);
     }
     else
     {
-        cout << "Not command parameter!" << endl << "Please try it again:" << endl;
+        cout << "Not command parameter!" << endl << "Please try it again!\n:" << endl;
         memset(msg, '\0', sizeof(*ar));
         cin >> msg;
         loop(msg);
