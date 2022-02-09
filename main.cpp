@@ -6,7 +6,7 @@
 #include "mmsystem"
 
 /*
-  Windows if
+  VC++ if
   add code "#parama comment(lib,"winmm.lib")"
   may be "#parama warning(disable:"4996")" is needed.
   don't forget to add static libary "winmm.lib" to link libary file.
@@ -14,6 +14,10 @@
 
 /*
   if you are coding with MinGw64.if you always use command line mode, alright,anythings, don't forget to add compile parameter "lwinmm" or add libary file "libwinmm.a" 
+*/
+
+/*
+  No code comments,too simple to view.
 */
 
 using namespace std;
