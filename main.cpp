@@ -8,7 +8,7 @@
   Insert code "#parama comment(lib,"winmm.lib")"
   May be "#parama warning(disable:"4996")" is needed.
   Don't forget to add the static library "winmm.lib" to the library file to be linked.
-  If you use MinGw64 for encoding. If you always use command line mode, well, anyway, don't forget to add compile parameter "-lwin mm" to link static library. 
+  If you use MinGw64 for encoding. If you always use command line mode, well, anyway, don't forget to add compile parameter "-lwinmm" to link static library. 
   
   Code is uncommented, easy to view.
   
