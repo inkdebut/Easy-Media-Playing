@@ -1,2 +1,2 @@
 # Easy-Media-Playing
-Using traditional C++ to play music file by creating a media pllayer on Windows platform,In the way of inputing the file path and enter some command parameters to play ,pause or resume.
+Use C++ to create a media player on the Windows platform to play music files. By entering the file path, enter some command parameters to play, pause or resume.
